@@ -1,0 +1,41 @@
+/* ***************************************************** */
+
+Configuration Commands:
+
+git config --global user.email "swathee2004@gmail.com"
+git config --global user.name "Swathee M"
+
+/* ***************************************************** */
+
+1. Create any local folder.
+
+2. Move to the folder and add few files
+
+3. Open the folder at GitBash or Command Prompt
+
+4. Initialize the Git Repository:
+
+git init
+
+5. Check the status of tracked and untracked files:
+
+git status
+
+6. Add the tracked files to the stagging area:
+
+git add .
+
+7. Check the status again
+
+git status
+
+8. Create a commit
+
+git commit -m "First Commit with intro.txt File"
+
+9. Push the changes to the central repository:
+
+ https://github.com/swathee/CodingBeamProject.git
+ 
+  git push -u origin master
+  
